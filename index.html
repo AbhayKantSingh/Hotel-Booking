@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <title>Hotel booking confirmation page</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="nav-up">
+        <div class="logo">
+          <img src="./assets/images/logo.svg" />
+        </div>
+        <hr />
+        <div class="options">
+          <ul>
+            <li>
+              <div>
+                <img src="./assets/images/icon-bed.svg" />
+                <p>Your stay</p>
+              </div>
+              <span class="hide">1</span>
+            </li>
+            <li>
+              <div>
+                <img src="./assets/images/icon-house.svg" />
+                <p>The house</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src="./assets/images/icon-pin.svg" />
+                <p>Around town</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src="./assets/images/icon-breakfast-outline.svg" />
+                <p>Breakfast</p>
+              </div>
+            </li>
+            <li>
+              <div>
+                <img src="./assets/images/icon-mail.svg" />
+                <p>Messages</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="nav-down">
+        <div class="weather">
+          <p>TODAY IN CASSIS</p>
+          <span>27<sup>o</sup></span>
+          <p>Sunny . light breeze</p>
+        </div>
+        <hr />
+        <div class="copyright">
+          <p>EST. 1987</p>
+          <div>
+            <p>MASION SOLEIL . 12 RUE DES</p>
+            <p>OLIVIERS . CLASSIS</p>
+          </div>
+
+          <p>© 2026 Maison Soleil</p>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <main>
+      <div class="main-nav">
+        <div class="booking">
+          <p>BOOKING · CONFIRMED</p>
+          <p class="place">Bienvenue, <span>Lucia.</span></p>
+        </div>
+        <div class="buttons">
+          <button id="print">Print receipt</button>
+          <button id="calender">Add to calender</button>
+        </div>
+      </div>
+      <div class="booking-info">
+        <div class="receipt">
+          <div class="heading">
+            <div class="headingLeft">
+              <p>Receipt</p>
+              <span>Your stay</span>
+            </div>
+            <div class="headingRight">
+              <p>№ MS-2026</p>
+              <p>0421-AH</p>
+            </div>
+          </div>
+          <hr />
+          <div class="check">
+            <div class="checkIn">
+              <p>CHECK IN</p>
+              <span>25 APR</span>
+              <p>Saturday · 15:00</p>
+            </div>
+            <div class="checkOut">
+              <p>CHECK OUT</p>
+              <span>25 APR</span>
+              <p>Saturday · 15:00</p>
+            </div>
+          </div>
+          <hr />
+          <div class="details">
+            <div class="detailsLeft">
+              <p>Room · La Garrigue · 4 nights</p>
+              <p>Breakfast · 2 guests</p>
+              <span> Tourist tax</span>
+            </div>
+            <div class="detailsRight">
+              <p>€ 620.00</p>
+              <p>€ 96.00</p>
+              <span>€ 14.40</span>
+            </div>
+          </div>
+          <hr />
+          <div class="totalPaid">
+            <p>TOTAL PAID</p>
+            <span> € 730.40</span>
+          </div>
+          <div class="qr">
+            <div class="qrLeft">
+              <p>Paid · Wise · GBP</p>
+            </div>
+            <div><img src="./assets/images/icon-barcode.svg" /></div>
+          </div>
+        </div>
+
+        <div class="welcome">
+          <hr />
+          <div class="heading">
+            <p>WELCOME CARD</p>
+          </div>
+          <div class="note">
+            <p class="h1">A note from your host,</p>
+            <p class="h2">Margaux.</p>
+            <p class="para">
+              We're so glad you're coming. The shutters will be open, the
+              lemonade cold, and the cat - Poivre - pretending not to notice
+              you.
+            </p>
+          </div>
+          <div class="room">
+            <p>ROOM</p>
+            <p class="roomName">La Garrigue</p>
+          </div>
+        </div>
+      </div>
+      <div class="hoverIns">
+        <img src="./assets/images/icon-sparkle.svg" />
+        <p>HOVER TO FAN</p>
+        <img src="./assets/images/icon-sparkle.svg" />
+      </div>
+    </main>
+  </body>
+  <script src="./script.js"></script>
+</html>
