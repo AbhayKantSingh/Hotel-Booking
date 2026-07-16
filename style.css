@@ -124,6 +124,7 @@ main{
     height: 100vh;
     padding: 20px;
     display: flex;
+    overflow-y: auto;
     flex-direction: column;
 }
 
@@ -310,4 +311,182 @@ main .main-nav .booking .place span{
     position: relative;
     font-size: 12px;
     gap: 10px;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+}
+
+.cards .f1{
+    position: relative;
+    top: 490px;
+    width: 400px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.f1Head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ac4724;
+}
+
+.f1HL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: #a54322;
+}
+
+.f1HL img{
+    background-color:#a54322;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.f1HR{
+    font-family: "Fraunces", serif;
+    font-size: 25px;
+}
+
+.largeHead{
+    font-family: "Fraunces", serif;
+}
+
+.largeHead .h1{
+    font-size: 30px;
+}
+
+.h1date{
+    color: rgba(86, 82, 82, 0.783);
+}
+
+.f1Para{
+    color: rgba(86, 82, 82, 0.783);
+    font-weight: 400;
+}
+
+/* f2 card */
+.cards .f2{
+    position: relative;
+    top: 490px;
+    width: 400px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.f2Head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba(0, 0, 255, 0.786);
+}
+
+.f2HL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: rgba(0, 0, 255, 0.786) ;
+}
+
+.f2HL img{
+    background-color: rgba(0, 0, 255, 0.786);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.f2HR{
+    font-family: "Fraunces", serif;
+    font-size: 25px;
+}
+
+.largeHead{
+    font-family: "Fraunces", serif;
+}
+
+.largeHead .h1{
+    font-size: 30px;
+}
+
+.h1date{
+    color: rgba(86, 82, 82, 0.783);
+}
+
+.f2Para{
+    color: rgba(86, 82, 82, 0.783);
+    font-weight: 400;
+}
+
+/* f3 card */
+.cards .f3{
+    position: relative;
+    top: 490px;
+    width: 400px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.f3Head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: palevioletred;
+}
+
+.f3HL{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color:palevioletred ;
+}
+
+.f3HL img{
+    background-color: palevioletred;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.f3HR{
+    font-family: "Fraunces", serif;
+    font-size: 25px;
+}
+
+.largeHead{
+    font-family: "Fraunces", serif;
+}
+
+.largeHead .h1{
+    font-size: 30px;
+}
+
+.h1date{
+    color: rgba(86, 82, 82, 0.783);
+}
+
+.f3Para{
+    color: rgba(86, 82, 82, 0.783);
+    font-weight: 400;
+}
+
+footer{
+    position: relative;
+    top: 500px;
+    height: 30px;
 }
