@@ -11,6 +11,13 @@
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -37,9 +44,14 @@
       <div class="nav-up">
         <div class="logo">
           <img src="./assets/images/logo.svg" />
+          <i
+            class="fa-solid fa-bars"
+            id="ham"
+            style="color: rgb(175, 181, 191)"
+          ></i>
         </div>
         <hr />
-        <div class="options">
+        <div class="options positionOption hideOptions">
           <ul>
             <li>
               <div>
@@ -75,7 +87,7 @@
           </ul>
         </div>
       </div>
-      <div class="nav-down">
+      <div class="nav-down hideNav-down">
         <div class="weather">
           <p>TODAY IN CASSIS</p>
           <span>27<sup>o</sup></span>
@@ -176,13 +188,13 @@
           </div>
         </div>
       </div>
-      <div class="hoverIns">
+      <div class="hoverIns hoverInsHide">
         <img src="./assets/images/icon-sparkle.svg" />
         <p>HOVER TO FAN</p>
         <img src="./assets/images/icon-sparkle.svg" />
       </div>
       <div class="cards">
-        <div class="f1">
+        <div class="f1 posf1">
           <div class="f1Head">
             <div class="f1HL">
               <img src="./assets/images/icon-key.svg" />
