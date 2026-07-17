@@ -586,21 +586,25 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
 
     .cards .f1{
         margin-top: 20px;
         top: 0px;
+        width: 100%;
     }
 
      .cards .f2{
         margin-top: 20px;
         top: 0px;
+        width: 100%;
     }
 
     .cards .f3{
         margin-top: 20px;
         top: 0px;
+        width: 100%;
     }
 
     .pos{
